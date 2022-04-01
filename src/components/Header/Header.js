@@ -7,9 +7,9 @@ const Header = () => {
         <div>
             <h2>Welcome To TSHIRT-MANIA!!</h2>
             <div className='links'>
-                <CustomLink to='/'></CustomLink>
                 <CustomLink to='/home'>Home</CustomLink>
                 <CustomLink to='/orderreview'>Order Review</CustomLink>
+                <CustomLink to='/grandpa'>GrandPa</CustomLink>
             </div>
         </div>
     );

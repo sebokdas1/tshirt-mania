@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Cart = ({ cart, handleRemoveFromCart }) => {
+
     return (
         <div>
             <h2>Total Selected Cart: {cart.length}</h2>
@@ -10,6 +11,7 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
                     <button onClick={() => handleRemoveFromCart(tShirt)}>X</button>
                 </p>)
             }
+            {cart.length === 4 ? "wow!! you added 4 items" : <p>keep adding</p>}
         </div>
     );
 };
