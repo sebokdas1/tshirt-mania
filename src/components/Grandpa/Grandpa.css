@@ -5,3 +5,8 @@
     border: 2px solid goldenrod;
     border-radius: 10px;
 }
+
+.grandpa p {
+    margin: 0;
+    padding: 0;
+}
